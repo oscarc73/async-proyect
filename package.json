@@ -1,0 +1,19 @@
+{
+  "name": "async_proyect",
+  "version": "1.0.0",
+  "description": "Proyecto de asyncronismo en pagina web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "js",
+    "async",
+    "html",
+    "css",
+    "javascript",
+    "proyect"
+  ],
+  "author": "Oscar Carabali oscar.jcarabali\u001bq@gmail.com",
+  "license": "MIT"
+}
