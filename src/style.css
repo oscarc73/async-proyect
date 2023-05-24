@@ -75,6 +75,7 @@ h6 {
   isolation: isolate;
 }
 
+/* General */
 :root {
   --color-primary: #F0F0F2;
   --color-secundary: #2256F2;
@@ -103,9 +104,11 @@ a {
   padding: 0;
 }
 
+/* HEADER */
 .header {
   display: grid;
   justify-items: center;
+  background-color: var(--color-secundary)
 }
 
 .menu-nav {
@@ -122,4 +125,42 @@ a {
   padding: 0;
   list-style: none;
   gap: 4rem;
+}
+
+.menu-nav__list li a {
+  color: var(--color-primary);
+}
+
+.menu-nav__list li {
+  font-size: 1.125rem;
+  font-weight: 500;
+  border: 1px solid var(--color-primary);
+  padding: 8px 16px;
+  border-radius: 0.5rem;
+  transition:
+    box-shadow 200ms ease-in-out,
+    transform 200ms ease-in-out;
+}
+
+.menu-nav__list li:hover {
+  box-shadow: 2px 2px 8px 1px rgb(240 240 242 / 53%);
+  transform: translate(-2px, -2px);
+}
+
+.menu-nav__search {
+  display: flex;
+  align-items: center;
+}
+
+.menu-nav__search__form input {
+  border-radius: .5rem;
+  width: 15rem;
+  height: 2.5rem;
+}
+
+.menu-nav__search__form__btn {
+  width: 5rem;
+  height: 2.5rem;
+  border-radius: 0.5rem;
+  background-color: var(--color-primary);
 }
