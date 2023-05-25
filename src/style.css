@@ -79,6 +79,7 @@ h6 {
 :root {
   --color-primary: #F0F0F2;
   --color-secundary: #2256F2;
+  --color-secundary-19: rgb(115 144 233 / 19%);
   --color-test: #3c3c3c;
   --color-bottom-primary: #F27649;
   --color-bottom-secundary: #ACF216;
@@ -100,7 +101,7 @@ a {
 }
 
 .container {
-  max-width: 1640px;
+  max-width: 1190px;
   padding: 0;
 }
 
@@ -163,4 +164,38 @@ a {
   height: 2.5rem;
   border-radius: 0.5rem;
   background-color: var(--color-primary);
+}
+
+.menu-nav__search__form__btn:hover {
+  cursor: pointer;
+}
+
+/*MAIN*/
+
+.main_head {
+  width: 100%;
+  background-color: var(--color-secundary-19);
+}
+
+.main-head__content {
+  margin: 0 auto;
+  padding: 150px 0 200px 0;
+}
+
+.main-head__content div {
+  width: 300px;
+  height: auto;
+}
+
+.main-head__content div img {
+  border-radius: 0.5rem;
+}
+
+.main-head__content h1 {
+  font-size: 45px;
+}
+
+.main-head__content p {
+  font-size: 18px;
+  font-weight: 500;
 }
